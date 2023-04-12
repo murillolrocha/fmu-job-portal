@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5em;
+  padding: 3em 4em;
+  background-color: #fafafa;
+}
+
+.content--filter {
+  width: 100%;
+  max-width: 250px;
+}
+
+.content--jobs {
+  width: 100%;
+  max-width: 812px;
+}
+
+.content--plus--content {
+  width: 100%;
+  max-width: 250px;
+}
