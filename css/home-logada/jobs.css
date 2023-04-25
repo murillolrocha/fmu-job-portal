@@ -1,0 +1,128 @@
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+  color: #121212;
+}
+
+.list--header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list--header > h2 {
+  font-size: 32px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+}
+
+.list--header--dropdown {
+  width: 100%;
+  max-width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 0.7em;
+  gap: 0.5em;
+
+  background-color: #ffffff;
+}
+
+.list--header--dropdown-right {
+  margin-left: auto;
+}
+
+.list--header--dropdown-right:hover {
+  cursor: pointer;
+}
+
+.list--header--dropdown-right:active {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.list--content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.list--content--job {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 1px solid rgba(20, 20, 20, 0.05);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.list--content--icon {
+  width: 72px;
+  height: 72px;
+  margin: 1.5em;
+  margin-right: 0;
+}
+
+.list--content--info {
+  width: max-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5em;
+
+  margin: 1.5em;
+  color: #121212;
+}
+
+.list--content--info > label {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.list--content--info > h3 {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.list--content--info > p {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.list--content--details {
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2em;
+}
+
+.list--content--details > label {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.list--content--details--info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}

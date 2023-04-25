@@ -1,0 +1,73 @@
+.filter--menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 1.5em;
+
+  background-color: #ffffff;
+  color: #141414;
+
+  border: 1px solid rgba(20, 20, 20, 0.05);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+}
+
+.filter--menu > h4 {
+  font-size: 20px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+}
+
+.filter--menu--option > h5 {
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+}
+
+.filter--menu--option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 0.5em;
+}
+
+.filter--menu--check {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.filter--menu--check--input {
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.filter--menu--check--input :hover {
+  cursor: pointer;
+}
+
+.filter--menu--check--input > input {
+  all: revert;
+  margin: 0;
+  align-self: center;
+}
+
+.filter--menu--check--input > label {
+  font-size: 16px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  border-bottom: 1px solid #ffffff;
+}
+
+.filter--menu--check--input > label:hover {
+  border-bottom: 1px solid #121212;
+}
